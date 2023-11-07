@@ -17,7 +17,7 @@ as easy as possible, while preserving Kubernetes-native configuration options.
 This guide will show you how to deploy the Prometheus operator, set up a
 Prometheus instance, and configure metrics collection for a sample application.
 
-{{< alert icon="👉" text="Prometheus Operator requires use of Kubernetes v1.16.x and up."/>}}
+{{< callout note >}} Prometheus Operator requires use of Kubernetes v1.16.x and up {{< /callout >}}
 
 > Note: [Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 > were introduced by CoreOS as a class of software that operates other software,

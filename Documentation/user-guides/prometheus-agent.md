@@ -11,7 +11,7 @@ draft: false
 description: Guide for running Prometheus in Agent mode
 ---
 
-{{< alert icon="👉" text="Prometheus Operator >= v0.64.0 is required."/>}}
+{{< callout note >}} Prometheus Operator >= v0.64.0 is required {{< /callout >}}
 
 As mentioned in [Prometheus's blog](https://prometheus.io/blog/2021/11/16/agent/), Prometheus Agent
 is a deployment model optimized for environments where all collected data is forwarded to
